@@ -1,0 +1,144 @@
+/*=============== RTL STYLES ===============*/
+/* General RTL adjustments */
+html[dir="rtl"] {
+  text-align: right;
+}
+
+/* Navigation adjustments */
+html[dir="rtl"] .nav-link.active::after {
+  right: 0;
+  left: auto;
+}
+
+/* Hero section */
+html[dir="rtl"] .hero-books {
+  direction: ltr; /* Keep the book display as is */
+}
+
+html[dir="rtl"] .hero-swiper {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-swiper .swiper-slide {
+  direction: rtl;
+}
+
+html[dir="rtl"] .floating-books {
+  transform: scaleX(-1); /* Flip the floating decoration books */
+}
+
+/* Book cards */
+html[dir="rtl"] .book-img-container {
+  direction: rtl;
+}
+
+html[dir="rtl"] .new-book-tag {
+  right: 1rem;
+  left: auto;
+}
+
+/* Books listing */
+html[dir="rtl"] .book-info {
+  text-align: right;
+}
+
+/* Newsletter form */
+html[dir="rtl"] .newsletter-form {
+  direction: rtl;
+}
+
+html[dir="rtl"] .newsletter-input {
+  text-align: right;
+}
+
+/* Testimonials */
+html[dir="rtl"] .testimonial-header {
+  direction: rtl;
+}
+
+html[dir="rtl"] .testimonial-card {
+  text-align: right;
+}
+
+/* Footer */
+html[dir="rtl"] .footer-info li {
+  direction: rtl;
+}
+
+/* Fix for icons in RTL */
+html[dir="rtl"] .ri-arrow-right-s-line:before {
+  content: "\ea64"; /* This is the left arrow icon code */
+}
+
+html[dir="rtl"] .ri-arrow-left-s-line:before {
+  content: "\ea6e"; /* This is the right arrow icon code */
+}
+
+/* Buttons */
+html[dir="rtl"] .primary-btn,
+html[dir="rtl"] .discount-btn,
+html[dir="rtl"] .newsletter-btn,
+html[dir="rtl"] .add-to-cart-btn {
+  font-family: var(--body-font);
+}
+
+/* User modal */
+html[dir="rtl"] .user-content,
+html[dir="rtl"] .user-content input {
+  text-align: right;
+}
+
+/* Search modal */
+html[dir="rtl"] .search-input {
+  text-align: right;
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+html[dir="rtl"] .search-close-btn {
+  left: 1rem;
+  right: auto;
+}
+
+/* Adjust spacing for RTL */
+@media screen and (max-width: 992px) {
+  html[dir="rtl"] .hero-content,
+  html[dir="rtl"] .discount-content,
+  html[dir="rtl"] .newsletter-content {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  html[dir="rtl"] .hero-content {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html[dir="rtl"] .book-2 {
+    left: 70px;
+    right: auto;
+  }
+  
+  html[dir="rtl"] .book-3 {
+    left: 140px;
+    right: auto;
+  }
+}
+
+/* For mobile menu */
+@media screen and (max-width: 768px) {
+  html[dir="rtl"] .nav-list {
+    right: -100%;
+    left: auto;
+  }
+
+  html[dir="rtl"] .show-menu {
+    right: 0;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .close-menu-btn {
+    left: 1rem;
+    right: auto;
+  }
+}

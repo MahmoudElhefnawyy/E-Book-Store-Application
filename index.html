@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="attached_assets/favicon.png" type="image/x-icon">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- RTL CSS -->
+    <link rel="stylesheet" href="rtl.css">
+    
+    <title>مكتبة الكتب الإلكترونية</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="navbar">
+                <a href="#" class="logo">
+                    <i class="ri-book-line"></i> كتــب
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link active">الرئيسية</a></li>
+                        <li><a href="#featured" class="nav-link">المميزة</a></li>
+                        <li><a href="#services" class="nav-link">الخدمات</a></li>
+                        <li><a href="#new" class="nav-link">كتب جديدة</a></li>
+                        <li><a href="#testimonial" class="nav-link">آراء العملاء</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <button class="icon-btn search-btn"><i class="ri-search-line"></i></button>
+                    <button class="icon-btn user-btn"><i class="ri-user-line"></i></button>
+                    <button class="icon-btn menu-btn"><i class="ri-menu-line"></i></button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- HERO SECTION -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">تصفح و<br>اختر الكتب الإلكترونية</h1>
+                    <p class="hero-description">
+                        ابحث عن أفضل الكتب وتصفح مجموعة متنوعة من العناوين، من الخيال العلمي إلى الكتب التعليمية، وكل ذلك بتصميم بسيط وسهل الاستخدام.
+                    </p>
+                    <button class="primary-btn">تصفح الآن</button>
+                </div>
+                
+                <div class="hero-books">
+                    <!-- Hero Books Banner (Like in reference image) -->
+                    <div class="hero-books-banner">
+                        <div class="hero-book hero-book-left">
+                            <img src="attached_assets/home-book-1.png" alt="كتاب" class="banner-book">
+                        </div>
+                        <div class="hero-book hero-book-center">
+                            <img src="attached_assets/home-book-2.png" alt="كتاب" class="banner-book">
+                        </div>
+                        <div class="hero-book hero-book-right">
+                            <img src="attached_assets/home-book-3.png" alt="كتاب" class="banner-book">
+                        </div>
+                        <div class="hero-book">
+                            <img src="attached_assets/home-book-4.png" alt="كتاب" class="banner-book">
+                        </div>
+                        <div class="hero-book">
+                            <img src="attached_assets/book-7.png" alt="كتاب" class="banner-book">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES SECTION -->
+            <section class="services-section" id="services">
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="ri-truck-line"></i>
+                        </div>
+                        <h3 class="service-title">شحن مجاني</h3>
+                        <p class="service-description">لكل الطلبات فوق 100$</p>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="ri-shield-check-line"></i>
+                        </div>
+                        <h3 class="service-title">دفع آمن</h3>
+                        <p class="service-description">100% معاملات آمنة</p>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="ri-customer-service-2-line"></i>
+                        </div>
+                        <h3 class="service-title">دعم 24/7</h3>
+                        <p class="service-description">متوفر على مدار الساعة</p>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="ri-truck-line"></i>
+                        </div>
+                        <h3 class="service-title"> هدية قيمة</h3>
+                        <p class="service-description">لكل الطلبات فوق 100$</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FEATURED BOOKS SECTION -->
+            <section class="featured-section" id="featured">
+                <h2 class="section-title">الكتب المميزة</h2>
+                
+                <div class="featured-books">
+                    <div class="book-card featured-book-special">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-1.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">رحلة الإبداع</h3>
+                            <div class="book-price">$14.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-2.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">الأفق البعيد</h3>
+                            <div class="book-price">$12.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-3.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">سر النجاح</h3>
+                            <div class="book-price">$16.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card featured-book-special">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-7.png" alt="كتاب مميز" class="book-img">
+                            <div class="book-badge">الأكثر مبيعاً</div>
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">الذكاء الاصطناعي</h3>
+                            <div class="book-price">$19.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-4.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">تاريخ الحضارات</h3>
+                            <div class="book-price">$10.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-1.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">رحلة الإبداع</h3>
+                            <div class="book-price">$14.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-5.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">علم النفس الإيجابي</h3>
+                            <div class="book-price">$13.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-6.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">فن الطبخ العربي</h3>
+                            <div class="book-price">$17.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    
+                    <div class="book-card featured-book-special">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-7.png" alt="كتاب مميز" class="book-img">
+                            <div class="book-badge">الأكثر مبيعاً</div>
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">الذكاء الاصطناعي</h3>
+                            <div class="book-price">$19.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-2.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">الأفق البعيد</h3>
+                            <div class="book-price">$12.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-8.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">فن التواصل</h3>
+                            <div class="book-price">$11.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-img-container">
+                            <img src="attached_assets/book-3.png" alt="كتاب مميز" class="book-img">
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">سر النجاح</h3>
+                            <div class="book-price">$16.99</div>
+                            <div class="book-rating">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <button class="add-to-cart-btn">إضافة للسلة</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DISCOUNT SECTION -->
+            <section class="discount-section">
+                <div class="discount-content">
+                    <h2 class="discount-title">خصم حتى 50%</h2>
+                    <p class="discount-description">
+                        استفد من عروضنا الحصرية على مجموعة مختارة من الكتب الرائعة. العرض لفترة محدودة!
+                    </p>
+                    <button class="discount-btn">تسوق الآن</button>
+                </div>
+                <div class="discount-image">
+                    <img src="attached_assets/discount-book-1.png" alt="كتاب مخفض" class="discount-book">
+                    <img src="attached_assets/discount-book-2.png" alt="كتاب مخفض" class="discount-book">
+                </div>
+            </section>
+
+            <!-- NEW BOOKS SECTION -->
+            <section class="new-books-section" id="new">
+                <h2 class="section-title">كتب جديدة</h2>
+                
+                <!-- Swiper for New Books -->
+                <div class="swiper new-books-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-9.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">تطوير الذات</h3>
+                                    <div class="new-book-price">$15.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-10.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">سحر البرمجة</h3>
+                                    <div class="new-book-price">$13.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-7.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">قصص نجاح</h3>
+                                    <div class="new-book-price">$11.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-8.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">علوم المستقبل</h3>
+                                    <div class="new-book-price">$14.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-5.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">قوة التفكير</h3>
+                                    <div class="new-book-price">$12.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="new-book-card">
+                                <div class="new-book-img-container">
+                                    <img src="attached_assets/book-6.png" alt="كتاب جديد" class="new-book-img">
+                                    <div class="new-book-tag">جديد</div>
+                                </div>
+                                <div class="new-book-info">
+                                    <h3 class="new-book-title">أساسيات الاقتصاد</h3>
+                                    <div class="new-book-price">$16.99</div>
+                                    <div class="new-book-rating">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-line"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add pagination -->
+                    <div class="swiper-pagination new-books-pagination"></div>
+                    
+                    <!-- Add navigation buttons -->
+                    <!-- <div class="swiper-button-next new-books-button-next"></div>
+                    <div class="swiper-button-prev new-books-button-prev"></div> -->
+                </div>
+            </section>
+
+            <!-- NEWSLETTER SECTION -->
+            <section class="newsletter-section">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">اشترك للحصول على<br>آخر التحديثات</h2>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="أدخل بريدك الإلكتروني" class="newsletter-input">
+                        <button class="newsletter-btn">اشترك</button>
+                    </form>
+                </div>
+                <div class="newsletter-image">
+                    <img src="attached_assets/join-bg.jpg" alt="اشترك" class="newsletter-img">
+                </div>
+            </section>
+
+            <!-- TESTIMONIALS SECTION -->
+            <section class="testimonial-section" id="testimonial">
+                <h2 class="section-title">آراء العملاء</h2>
+                
+                <div class="testimonials">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="attached_assets/testimonial-perfil-1.png" alt="صورة العميل" class="testimonial-img">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">رياض لوز</h3>
+                                <div class="testimonial-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            "أفضل موقع لشراء الكتب، عملية الشراء سهلة جداً وهناك خصومات رائعة."
+                        </p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <img src="attached_assets/testimonial-perfil-2.png" alt="صورة العميل" class="testimonial-img">
+                            <div class="testimonial-info">
+                                <h3 class="testimonial-name">ريم لوز</h3>
+                                <div class="testimonial-rating">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            "مجموعة رائعة من الكتب الإلكترونية وخدمة عملاء مذهلة. التوصيل كان سريعًا والجودة فاقت توقعاتي."
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-columns">
+                <div class="footer-column about-column">
+                    <h3 class="footer-title">حول</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">الجوائز</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الخدمة</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column company-column">
+                    <h3 class="footer-title">الشركة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">فريقنا</a></li>
+                        <li><a href="#">شركاؤنا</a></li>
+                        <li><a href="#">المستثمرون</a></li>
+                        <li><a href="#">عملاؤنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column contact-column">
+                    <h3 class="footer-title">اتصل بنا</h3>
+                    <ul class="footer-info">
+                        <li>
+                            <i class="ri-map-pin-line"></i>
+                            <span>شارع الملك فهد، الرياض، المملكة العربية السعودية</span>
+                        </li>
+                        <li>
+                            <i class="ri-phone-line"></i>
+                            <span>+966 123 456 789</span>
+                        </li>
+                        <li>
+                            <i class="ri-mail-line"></i>
+                            <span>info@example.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column social-column">
+                    <h3 class="footer-title">تواصل معنا</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="social-link"><i class="ri-twitter-fill"></i></a>
+                        <a href="#" class="social-link"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="social-link"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2023 مكتبة الكتب الإلكترونية. جميع الحقوق محفوظة.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- SCROLLREVEAL -->
+    <script src="scrollreveal.min.js"></script>
+    
+    <!-- SWIPER JS -->
+    <script src="swiper-bundle.min.js"></script>
+    
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+</body>
+</html>
